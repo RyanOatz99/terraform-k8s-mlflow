@@ -1,3 +1,4 @@
-mlflow[extras]==1.23.1
+mlflow==3.5.0rc0
 psycopg2-binary==2.9.2
 PyMySQL==1.0.2
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
